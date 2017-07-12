@@ -42,7 +42,7 @@ public class SmsBroadcastReceiver extends BroadcastReceiver {
                 smsMessageStr += smsBody + "\n";
 
                 SmsManager smsManager = SmsManager.getDefault();
-                smsManager.sendTextMessage(address, null, "reply_message: " + smsBody, null, null);
+                smsManager.sendTextMessage(address, null, "reply_aaa: " + smsBody, null, null);
             }
             Toast.makeText(context, smsMessageStr, Toast.LENGTH_SHORT).show();
 

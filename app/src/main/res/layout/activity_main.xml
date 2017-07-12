@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Starting Cats __ 1"
+        android:text="Starting Cats 12"
         android:textSize="30dp" />
 
     <TextView
@@ -70,6 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:onClick="captureThePicture"
         android:visibility="gone"
         android:text="Capture" />
 
